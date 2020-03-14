@@ -1,3 +1,4 @@
+#coding: utf-8
 import RPi.GPIO as GPIO
 import time
 
@@ -7,7 +8,7 @@ def setup():
     GPIO.setmode(GPIO.BOARD)
     GPIO.setup(LedPin, GPIO.OUT)
     GPIO.output(LedPin, GPIO.HIGH)
-s
+
 def loop():
     while True:
         print ('´...led on´')
